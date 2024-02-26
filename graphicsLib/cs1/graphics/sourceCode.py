@@ -8,6 +8,7 @@ This is Version 1.2a2 alpha bugfix release (18 January 2012)
        Detabified (15 April 2012)
 """
 
+
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -23,7 +24,7 @@ This is Version 1.2a2 alpha bugfix release (18 January 2012)
 
 
 # Configuration Options
-_nativeThreading = False     # if True, this allows for true multi-threading
+_nativeThreading = True     # if True, this allows for true multi-threading
 _mathMode = False            # if True, coordinate system uses lower-left origin
 _RECURSIVE_LIMIT = 10
 _debug = 0
@@ -40,7 +41,7 @@ import os as _os
 import sys as _sys
 import traceback as _traceback
 from array import array as _array
-import cStringIO as _cStringIO
+import io as _cStringIO
 import base64 as _base64
 
 # change in module names for Python 2 vs 3
@@ -80,7 +81,8 @@ _ourRandom.seed(1234)     # initialize the random seed so that behaviors are rep
 # support for Python 2.x/3.x.
 # We want to use isinstance(foo, basestring) in either case
 try:
-    unicode
+    #unicode
+    print("error")
 except NameError:
     basestring = unicode = str
 
@@ -1235,6 +1237,9 @@ class _UpdateManager:
         For 'add' or 'update', properties should be dictionary of key/value pairs.
         Empty dicitonary should be used for remove/freeze/unfreeze.
         """
+
+        statusFlags = 'helloWorld'
+
         if _debug >= 1:
             print('\n_UpdateManager.update called with\n    ' + '\n    '.join([str(x) for x in (chain,style,properties)]))
             if not isinstance(style, basestring):
