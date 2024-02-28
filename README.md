@@ -5,6 +5,10 @@ to use this library simple write the follwing into your terminal
 ```
 pip3 install cs1-graphics
 ```
+you can then import the functions by writing:
+```
+from cs1.graphics import *
+```
 ##  Documentation
 * [cs1.graphics](http://www.cs1graphics.org/) - cs1 graphics docs
 ## Built With
