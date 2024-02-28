@@ -1,10 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='cs1-graphics',
-    version='1.2',
-    packages=find_packages(),
-    install_requires=['turtle'],
+    version='1.4',
+    install_requires='None',
     author='Jack Seigerman',
     author_email='jacks3ds@gmail.com',
     description='python 3 drawing library that takes calls similar to the cs1-graphics library and outputs with the '

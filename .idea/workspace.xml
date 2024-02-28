@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="00d11581-9434-4ded-a922-bf431bd101f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphicsLib/cs1/graphics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphicsLib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphicsLib/cs1/graphics/sourceCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphicsLib/cs1/graphics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graphicsLib/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphicsLib/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,19 +30,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jackseigerman/Documents/CODE/Python/cs1-graphics&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/jackseigerman/Documents/CODE/Python/cs1-graphics/graphicsLib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/graphicsLib/.idea" />
-      <recent name="$PROJECT_DIR$/graphicsLib/cs1" />
-      <recent name="$PROJECT_DIR$/graphicsLib/dist" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/graphicsLib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/graphicsLib" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/graphicsLib/.idea" />
+      <recent name="$PROJECT_DIR$/graphicsLib/dist" />
+      <recent name="$PROJECT_DIR$/graphicsLib/cs1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
