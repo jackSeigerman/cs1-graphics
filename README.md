@@ -13,6 +13,8 @@ from cs1.graphics import *
 * [cs1.graphics](http://www.cs1graphics.org/) - cs1 graphics docs
 ## Built With
 * [turtle](https://docs.python.org/3/library/turtle.html) - Used to render graphics
+## PyPi link
+* [PyPi](https://pypi.org/project/cs1-graphics/) - link to project in PyPi
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
