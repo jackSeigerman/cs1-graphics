@@ -15,6 +15,8 @@ from cs1.graphics import *
 * [turtle](https://docs.python.org/3/library/turtle.html) - Used to render graphics
 ## PyPi link
 * [PyPi](https://pypi.org/project/cs1-graphics/) - link to project in PyPi
+## Speical thanks
+thak you Ryan Kennelly 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
