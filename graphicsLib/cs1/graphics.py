@@ -1,8 +1,11 @@
 import turtle
 
+h=0
+
 
 def open_canvas(width, height):
     turtle.setup(width=width, height=height)
+    h = height
 
 
 def set_background_color_rgb(r, g, b):
@@ -28,7 +31,7 @@ def set_line_thickness(thickness):
 
 def draw_filled_circle(centerx, centery, radius):
     turtle.penup()
-    turtle.setpos(centerx, centery - radius)
+    turtle.setpos(centerx, h - (centery - radius))
     turtle.pendown()
     turtle.begin_fill()
     turtle.circle(radius)
@@ -37,7 +40,7 @@ def draw_filled_circle(centerx, centery, radius):
 
 def draw_filled_rect(x, y, width, height):
     turtle.penup()
-    turtle.setpos(x, y)
+    turtle.setpos(x, h - y)
     turtle.pendown()
     turtle.begin_fill()
     for _ in range(2):
@@ -50,19 +53,19 @@ def draw_filled_rect(x, y, width, height):
 
 def draw_filled_polygon(x1, y1, x2, y2, x3, y3, x4, y4):
     turtle.penup()
-    turtle.setpos(x1, y1)
+    turtle.setpos(x1, h - y1)
     turtle.pendown()
     turtle.begin_fill()
-    turtle.goto(x2, y2)
-    turtle.goto(x3, y3)
-    turtle.goto(x4, y4)
-    turtle.goto(x1, y1)
+    turtle.goto(x2, h - y2)
+    turtle.goto(x3, h - y3)
+    turtle.goto(x4, h - y4)
+    turtle.goto(x1, h - y1)
     turtle.end_fill()
 
 
 def draw_oval(x, y, width, height):
     turtle.penup()
-    turtle.setpos(x, y - height)
+    turtle.setpos(x, h - (y - height))
     turtle.pendown()
     turtle.begin_fill()
     turtle.left(45)
@@ -74,7 +77,7 @@ def draw_oval(x, y, width, height):
 
 def draw_rect(x, y, width, height):
     turtle.penup()
-    turtle.setpos(x, y)
+    turtle.setpos(x, h - y)
     turtle.pendown()
     for _ in range(2):
         turtle.forward(width)
@@ -85,13 +88,13 @@ def draw_rect(x, y, width, height):
 
 def draw_filled_oval(x, y, width, height):
     turtle.penup()
-    turtle.setpos(x, y - height)
+    turtle.setpos(x, h - (y - height))
     turtle.pendown()
     turtle.begin_fill()
     turtle.left(45)
     for _ in range(2):
-        turtle.circle(width/2, 90)
-        turtle.circle(height/2, 90)
+        turtle.circle(width / 2, 90)
+        turtle.circle(height / 2, 90)
     turtle.end_fill()
 
 

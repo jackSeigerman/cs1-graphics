@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='cs1-graphics',
-    version='1.4',
+    version='1.5',
     install_requires='None',
     author='Jack Seigerman',
     author_email='jacks3ds@gmail.com',
