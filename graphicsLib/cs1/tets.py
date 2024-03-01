@@ -17,7 +17,7 @@ def draw_eyes(centerx, centery):
     draw_filled_rect(centerx - 10, centery - 50, 20, 1)
     draw_filled_rect(centerx + 90, centery - 50, 50, 1)
     draw_rect(centerx + 10, centery - 90, 80, 80)
-    #est
+    #est2
 
 # Draw the hair on a potato of radius 150 pixels.
 # Parameters: (centerx, centery), the (x, y) coordinates of the potato center.
