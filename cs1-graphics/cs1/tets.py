@@ -99,5 +99,5 @@ def main():
     draw_mouth(cx, cy)
 
 
-# Start program.
+# Start program.test
 main()
