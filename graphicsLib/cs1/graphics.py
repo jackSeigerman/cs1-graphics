@@ -1,10 +1,11 @@
 import turtle
+import atexit
 
-h=0
+h = 0
 
 
 def open_canvas(width, height):
-    turtle.setup(width=width, height=height)
+    turtle.Screen().setup(width=width, height=height)
     h = height
 
 
@@ -110,3 +111,10 @@ def draw_circle(centerx, centery, radius):
     turtle.setpos(centerx, centery - radius)
     turtle.pendown()
     turtle.circle(radius)
+
+
+def close():
+    turtle.Screen().exitonclick()
+
+
+atexit.register(close)
