@@ -4,6 +4,9 @@ import atexit
 h = 0
 
 
+# maybe add a function that resets turtle pos/rotation after each call
+
+
 def open_canvas(width, height):
     turtle.Screen().setup(width=width, height=height)
     h = height
